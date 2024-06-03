@@ -6,6 +6,10 @@ Los datos que se manejan son ficticios.
 
 Los datos están almacenados en un archivo Excel.
 
+Se almacenan los detalles de los abonos en otra tabla, indicando finiquitos si se requiere.
+
+
+
 El proyecto debe cumplir con los siguientes requisitos: 
  - Debe tener un gestor de bases de datos.
  - Debe tener un sistema distribuido.
