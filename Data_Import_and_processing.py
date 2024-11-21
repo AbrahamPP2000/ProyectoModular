@@ -105,10 +105,15 @@ def sum_of_payments_for_lots_to_be_sold(cursor):
     print("Presione Enter para continuar...")
     input()
     subprocess.call("cls", shell=True)
-
+##################################### 21/11/24
 def client_consultation(cursor):
+    query = "SELECT Nombre FROM Gestion_de_lotes.Clientes"
+    cursor.execute(query)
+    info = cursor.fetchall()
+    for row in info:
+        print(row)
     pass
-
+#####################################
 
 def lot_consultation(cursor):
     # Preguntar por el número de lote y de manzana del lote.
